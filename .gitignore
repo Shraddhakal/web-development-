@@ -1,0 +1,23 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node.js (if using npm)
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# Compiled CSS from SCSS/SASS (optional)
+*.css.map
+
+# Build folders (if you generate builds)
+dist/
+build/
+
+# Environment files
+.env
+.env.local
