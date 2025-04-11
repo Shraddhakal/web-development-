@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.container{
+    margin: 0px auto;
+    padding-left:20px;
+    width: 800px;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+h4{
+    text-align: center;
+}
+h4::before{
+    content: open-quote;
+}
+h4::after{
+    content: close-quote;
+}
+a[data-tool-tip]{
+    position: relative;
+}
+a[data-tool-tip]::after{
+    content: attr(data-tool-tip);
+    display: block;
+    position: absolute;
+    background-color: gray;
+    padding: 1em 3em;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.8em;
+    bottom: 0;
+    left: 0;
+    white-space: nowrap;
+    transform: scale(0);
+    transition: 
+    transform ease-out 150ms,
+    bottom ease-out 150ms;
+}
+a[data-tool-tip]:hover::after{
+    transform: scale(1);
+    bottom: 100% ;
+}
+.title{
+    text-align: center;
+    color: rgb(226, 11, 11);
+    font-weight: bold;
+}
+.title::before{
+    font-family: 'Font Awesome 5 Free';
+    content:'\f0e7';
+    display: block;
+    margin-bottom: 5px;
+}
+a[href=".pdf"]::after{
+    font-family: 'Font Awesome 5 Free';
+    content: '\f1c1';
+}
+a[href^="http"]::after{
+    font-family: 'Font Awesome 5 Free';
+    content: '\f35d';
+}
+.counters{
+    background-color: lightgrey;
+    text-align: left;
+    padding: 5em 8em;
+    margin-top: 7em;
+
+    counter-reset: counter-name;
+}
+.section{
+    position: relative;
+    text-align: left;
+}
+.section::before{
+    counter-increment: counter-name;
+    content: counter(counter-name) ;
+    position: absolute;
+    left: -2.5em;
+    top:-.5em ;
+    background: white;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gray;
+    color: gray;
+    box-sizing: border-box;
+    }
+    .counters ol{
+        counter-reset: ordered-list;
+        list-style: none;
+    }
+    .counters li::before{
+     counter-increment: ordered-list;
+     content: 'list item ' counter(ordered-list) ' )';
+     font-size: .8em;
+     color: red;
+    } 

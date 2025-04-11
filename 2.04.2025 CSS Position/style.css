@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+    height: 100vh;
+}
+.box{
+    margin-top: 20px;
+    width: 100px;
+    height: 300px;
+    background-color: lightcoral;
+}
+#second-element{
+ position: relative;
+ top: 20px;
+ left: 40px;
+}
+#third-element{
+    background-color: lightgrey;
+}
+nav{
+    position:fixed;
+    top: 0px;
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+#parent-element{
+    width: 500px;
+    height: 500px;
+    background-color: lightpink;
+}

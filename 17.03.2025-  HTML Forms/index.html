@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+    <meta 
+    name="description" 
+    content="Learn web development using html, css and javascript"/>
+    <meta name="author" content="shraddha kale"/>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+    <meata charset="UTF-8"/>
+</head>
+<body>
+    <h1>Learning about Forms</h1>
+    <form>
+        <label>First Name</label>
+       <input type="text" placeholder="Enter First Name" readonly value="Shraddha"/>
+       <br/><br/>
+       <label for="age_input">Age</label>
+       <input type="number" id="age_input" min="18" max="45"/> 
+       <br/><br/>
+       <label for="email_input">Email</label>
+       <input type="email" id="email_input" required/>
+       <br/><br/>
+       <label for="password_input">Password</label>
+       <input type="password" id="password_input" minlength="6" maxlength="10"/>
+       <br/>
+       <br/>
+       <label for="language_input">Language Known</label>
+       <input type="checkbox" id="language_input"/> English
+       <input type="checkbox" id="language_input"/> Hindi
+       <input type="checkbox" id="language_input"/> French
+       <input type="checkbox" id="language_input"/> German
+       <br/>
+       <br/>
+       <label for="gender">Gender</label>
+       <input type="radio" name="gender">Male
+       <input type="radio" name="gender">Female
+       <input type="radio" name="gender">Others
+       <br/>
+       <br/>
+       <labe for="city">City</label>
+        <select>
+            <option value="MUM">Mumbai</option>
+            <option valu="DEL">Delhi</option>
+            <option value="BGL">Bengluru</option>
+            <option value="PUN">Pune</option>
+        </select>
+       <input type="submit" value="submit"/>
+    </form>
+    <button aria-label="Close">X</button>
+</body>
+</html>

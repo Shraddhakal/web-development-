@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#first-paragraph{
+    background-color: lightblue;
+    padding: 10px 5px 12px 5px;
+    border: 5px solid blue;
+    margin-bottom: 32px;
+    margin-top: 0px;
+    width: 200px;
+    height: 300px;
+}
+#second-paragraph{
+    background-color: lightgreen;
+    padding: 15px;
+    border: 5px solid green;
+    margin: 0px;
+    height: 300px;
+    width: 200px;
+}

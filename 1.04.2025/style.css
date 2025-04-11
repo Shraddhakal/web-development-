@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#block-element{
+    background-color: lightblue;
+    color: blue;
+    padding: 20px;
+    width: 50%;
+}
+#block-element-2{
+    background-color: lightblue;
+    color: blue;
+    padding: 20px;
+    width: 300px;
+}
+#nested-element{
+    width: 50%;
+}
+.inline-element{
+    background-color: lightgreen;
+    color: green;
+    padding: 10px; /*It is not working in inline elements */
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px; /*It is not working in inline elements */
+}
+.inline-block-element{
+    display: inline-block;
+    background-color: lightgreen;
+    color: green;
+    padding: 10px;
+    width: 24%;
+}

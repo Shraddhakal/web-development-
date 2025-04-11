@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+.container {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+ h1 {
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+.container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #444444;
+}
+.container h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.btn {
+    background-color: #FFD814;
+    color: black;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.btn:hover {
+    background-color: #F7CA00;
+}
+.terms {
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.terms a {
+    color: #0066c0;
+    text-decoration: none;
+}
+.terms a:hover {
+    text-decoration: underline;
+}
+.buying {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.buying a {
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+}
+.buying a:hover {
+    text-decoration: underline;
+}
+hr{
+    margin-top: 350px;
+}
+.footer {
+    position: absolute;
+    bottom: 210px; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    
+}
+.footer a {
+    color: #0066c0;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
