@@ -11,11 +11,16 @@ body{
     height: 100vh;
     align-items: center;
 }
+h1{
+    color:#00494d;
+    margin-bottom: 10px;
+}
 main{
     display: flex;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
+    gap: 20px;
 }
 .input-section{
     width: 45%;
@@ -42,6 +47,14 @@ main{
     border-radius: 10px;
     border: none;   
 }
+#button-container .item{
+    background-color: #30c1b0;
+    color:#00494d;
+}
+#button-container .part{
+    background-color: #c5e4e7;
+    color: #00494d;
+}
 .view-section{
     background-color: #00494d;
     padding: 20px;
@@ -59,7 +72,31 @@ main{
 .total-amount-labe{
     display: flex;
     flex-direction: column;
+    color: #ffffff;
+    font-size:15px;
+    margin-bottom:50px;
+    margin-top:15px;
 }
 .total-amount-container{
     flex-grow: 1;
+}
+.person{
+    color:#c5e4e7;
+    display: block;
+}
+.amount{
+    font-size: 60px;
+    color: #30c1b0;
+    font-weight: bold;
+}
+ .reset{
+    padding: 15px;
+    background-color: #30c1b0;
+    color: #00494d;
+    font-weight:800;
+}
+.sub-heading{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
