@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5eff5;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 40%;
+    border-radius: 20px;
+}
+#join-community{
+    padding: 20px;
+    grid-column: 1/-1;
+    background-color: white;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+#monthly-subscription{
+   padding: 20px;
+   background-color:#2ab2af ;
+   color: white;
+   border-bottom-left-radius: 10px;
+}
+.p1{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.btn{
+    background-color:greenyellow;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+#why-us{
+  padding: 20px;
+ 
+  background-color:#2ab2b085 ;
+  color: white;
+  border-bottom-right-radius: 10px;
+}
+#join-community h2{
+    color:#2ab2af ;
+    font-size: 20px;
+    margin-bottom:10px;
+}
+#day-wise-gurantee{
+    color: #c0df34;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#gain-access{
+    font-size: 18px;
+    color:#9da0a2; ;
+}
+#monthly-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#monthly-subscription div{
+    display: flex;
+    gap: 10px;
+}
+ul{
+    list-style: none;
+}
+#why-us h2{
+    margin-bottom: 10px;
+}
